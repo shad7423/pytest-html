@@ -318,21 +318,3 @@ div.media {
 .filter__label {
   margin-right: 10px;
 }
-
-.company-header {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 10px;
-}
-
-.company-logo {
-  height: 48px;
-  width: auto;
-}
-
-.company-header h1 {
-  margin: 0;
-  font-size: 32px;
-}
-
