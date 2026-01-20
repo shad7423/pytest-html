@@ -14,9 +14,11 @@
   <body>
       <!-- Company Logo -->
     <div class="company-header">
-      <img src="company_logo.png" alt="Company Logo" class="company-logo"/>
+      <img src="{{ resources }}/company_logo.png"
+           alt="Company Logo"
+           class="company-logo"/>
+      <h1 id="title">{{ title }}</h1>
     </div>
-    <h1 id="title">{{ title }}</h1>
     <p>Report generated on {{ date }} at {{ time }}</p>
     <div id="environment-header">
       <h2>Environment</h2>

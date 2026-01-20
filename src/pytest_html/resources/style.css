@@ -324,6 +324,9 @@ div.media {
   align-items: center;
   margin-bottom: 10px;
 }
+.company-header h1 {
+  margin-left: 15px;
+}
 
 .company-logo {
   height: 60px;
