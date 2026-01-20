@@ -326,13 +326,9 @@ div.media {
   padding: 12px 0;
 }
 
-.report-header img {
-  height: 42px;
-  width: auto;
-}
-
 .report-title {
   font-size: 28px;
   font-weight: 700;
   margin: 0;
+  color: #000;
 }
