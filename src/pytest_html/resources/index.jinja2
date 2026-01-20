@@ -12,7 +12,15 @@
     {%- endif %}
   </head>
   <body>
-    <p>Report generated on {{ date }} at {{ time }}</p>
+    <div class="report-header">
+      <img id="company-logo" />
+      <h1 class="report-title">{{ title }}</h1>
+    </div>
+
+    <p class="generated-at">
+      Report generated on {{ date }} at {{ time }}
+    </p>
+
     <div id="environment-header">
       <h2>Environment</h2>
     </div>
