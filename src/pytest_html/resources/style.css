@@ -331,4 +331,5 @@ div.media {
   font-weight: 700;
   margin: 0;
   color: #000;
+  white-space: nowrap;
 }
